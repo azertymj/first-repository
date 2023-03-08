@@ -1,0 +1,7 @@
+outil a utilisée 
+gitlab
+bitbucket
+mot a savoir pour utilisée git:
+statue: permet de regarder le statue du dossier
+init : permet d'initialiser son dossier en tant que dossier git pour pouvoir l'utiliser
+add : pour ajouter les modification 
