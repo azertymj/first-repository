@@ -5,3 +5,9 @@ mot a savoir pour utilisée git:
 statue: permet de regarder le statue du dossier
 init : permet d'initialiser son dossier en tant que dossier git pour pouvoir l'utiliser
 add : pour ajouter les modification 
+commit : permet de mettre des info sur les modif apporter au travaux
+pull :permet de fusionner les depot locaux et le resposive serveur
+push :permet d'envoyer les modification local dans la branche principales 
+rollback :permet d'annuler les modification de commit d'un referentiel
+merge : peret de fusionner une brranche dans la branche active
+rebase :permet de reatribuer les commit sur une autre branche 

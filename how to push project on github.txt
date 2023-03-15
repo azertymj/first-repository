@@ -1,0 +1,31 @@
+Pour envoyer votre projet dans votre dépôt GitHub avec Git, vous pouvez suivre les étapes suivantes :
+
+Créez un nouveau dépôt sur GitHub en vous connectant à votre compte et en cliquant sur le bouton "New Repository" (Nouveau dépôt).
+
+Donnez un nom à votre dépôt et cliquez sur le bouton "Create Repository" (Créer le dépôt).
+
+Ouvrez une ligne de commande sur votre ordinateur et accédez au répertoire où se trouve votre projet.
+
+Initialisez le dépôt Git dans ce répertoire en tapant la commande suivante :
+
+git init
+
+Ajoutez tous les fichiers de votre projet à l'index Git en tapant la commande suivante 
+
+git add .
+
+Créez un commit en tapant la commande suivante :
+
+git commit -m "votre message de commit"
+
+Connectez votre dépôt Git local à votre dépôt GitHub en tapant la commande suivante :
+
+git remote add origin <url-de-votre-depot-github>
+
+Remplacez <url-de-votre-depot-github> par l'URL de votre dépôt GitHub que vous avez créé à l'étape 2.
+
+Envoyez votre projet dans votre dépôt GitHub en tapant la commande suivante :
+perl
+Copy code
+git push -u origin master
+Cela envoie votre projet dans votre dépôt GitHub. Vous pouvez maintenant voir les fichiers de votre projet sur votre dépôt GitHub en ligne.
