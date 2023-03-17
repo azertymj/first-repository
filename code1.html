@@ -66,6 +66,8 @@
         <dd><a href="#chap4">chap4</a></dd>
         <dd><a href="#chap5">chap5</a></dd>
         <dd><a href="#chap6">chap6</a></dd>
+        <dd><a href="#chap7">chap7</a></dd>
+        <dd><a href="#chap8">chap8</a></dd>
     </dl>
     <!--poure redireiger vers un titre sur une autre page href"#info.html#id"-->
     <a href="code2.html">redirection vers div</a>
@@ -84,6 +86,119 @@
     <h2 id="chap6"><strong>Gestion des image</strong></h2>
     <img src="/Ainz Ooal Gown.png" alt="Ainz Ooal Gown" width="150" height="100" >
 
+    <h2 id="chap7">Element de tableau</h2>
+<!--comment fonctionne les tableau-->
+<!--faire entierement le bulletin et l'emploie du temps par page -->
+
+    <table border="10" align="center" bgcolor="blue" cellpadding="5" cellspacing="1" width="180">
+        
+        <tr border="2" bgcolor="green" align="center" valign=""><!--ligne-->
+            <td align="center" colspan="2" rowspan="" bgcolor="blue">Nom&Prenom</td>
+            
+            <td>math</td>
+            <td>physique</td>
+            <td>chimie</td>
+            <td>svt</td> <!--colonne-->
+            
+        </tr>
+        
+        <tr border="1" bgcolor="red" align="center" valign="middle">
+            <td bgcolor="grey">marlin</td>
+            <td bgcolor="grey">bobo</td>
+            <td>15</td>
+            <td>6</td>
+            <td>9</td>
+            <td>11</td>
+        </tr>
+        <tr border="1" bgcolor="yellow" align="center" valign="bottom">
+            <td bgcolor="grey">tomma</td>
+            <td bgcolor="grey">hydrr</td>
+            <td>6</td>
+            <td>8</td>
+            <td>15</td>
+            <td>6</td>
+        </tr>
+        <tr border="1" bgcolor="grey" align="center" valign="middle">
+            <td bgcolor="grey">alfred</td>
+            <td>ndong</td>
+            <td>6</td>
+            <td>12</td>
+            <td>10</td>
+            <td>9</td>
+        </tr>
+        <tr border="1" bgcolor="violet" align="center" valign="top">
+            <td bgcolor="grey">hendrix</td>
+            <td bgcolor="grey">mj</td>
+            <td bgcolor="pink">4</td>
+            <td bgcolor="pink">9</td>
+            <td bgcolor="pink">3</td>
+            <td bgcolor="pink">16</td>
+        </tr>
+        <tr border="1" bgcolor="violet" align="center" valign="top">
+            <td align="center" colspan="2" rowspan="" bgcolor="red">TOTAL</td>
+            <td bgcolor="">5</td>
+            <td>15</td>
+            <td>16</td>
+            <td>13</td>
+            
+        </tr>
+        <tr>
+            <td align="center" colspan="5" rowspan=""></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h2 id="chap8">Element formulaire</h2>
+<h2>FORMULAIRE CNOU</h2>
+    <form  action="" name="from-CNOU"><!--method post/get-->
+        <div>
+            <label for="nom">Nom & Prenom</label><br>
+            <input type="text" id="nom" name="name">
+        </div>
+        <div>
+            <label for="sexe" >Sexe</label><br>
+            <input type="radio" id="sexe" name="sexe" value="Femme" checked>Homme<br>
+            <input type="radio" id="sexe" name="sexe" value="homme">Femme<br>
+        </div>
+        <div>
+            <label for="age">ÂGE</label><br>
+            <input type="number" id="age" placeholder="age" min="15" max="50">
+        </div>
+        <label for="ticket" id="ticket">Nombre de ticket</label><br>
+        <select name="nbr_tk" id="nombre_ticket">
+            <option value="1">ticket N°01</option>
+            <option value="2">ticket N°02</option>
+            <option value="3">ticket N°03</option>
+        </select><br>
+        <div>
+            <label >ACCOMPAGNEMENT</label>
+            
+            <input type="checkbox" name="acc1" value="B">BANANE<br>
+            <input type="checkbox" name="acc2" value="C">COUSCOUS<br>
+            <input type="checkbox" name="acc3" value="T">TARO<br>
+            <input type="checkbox" name="acc4" value="M">MANIOC<br>
+            <input type="checkbox" name="acc4" value="R">RIZ<br>
+        </div>
+        <div>
+            <label for="pay">PAIEMENT</label>
+           
+            <input type="radio" id="way1" name="acc1" value="B">Liquide<br>
+            <input type="radio" name="acc2" value="C">PayPal <br>
+            <input type="radio" name="acc3" value="T">Visa<br>
+
+        </div>
+        <div>
+            <label for="rmq">REMARQUE</label><br>
+            <textarea name="avis" id="rmq" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <input type="submit" name="payer" value="payer">
+        <input type="reset" name="annuler" value="annuler">
+    </form>
+
+
+    
 </body>
 
 </html>

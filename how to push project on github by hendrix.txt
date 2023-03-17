@@ -12,7 +12,7 @@ git init
 
 Ajoutez tous les fichiers de votre projet à l'index Git en tapant la commande suivante 
 
-git add .
+git add (non du fichier ou dossier)
 
 Créez un commit en tapant la commande suivante :
 
@@ -25,7 +25,7 @@ git remote add origin <url-de-votre-depot-github>
 Remplacez <url-de-votre-depot-github> par l'URL de votre dépôt GitHub que vous avez créé à l'étape 2.
 
 Envoyez votre projet dans votre dépôt GitHub en tapant la commande suivante :
-perl
-Copy code
+
 git push -u origin master
+
 Cela envoie votre projet dans votre dépôt GitHub. Vous pouvez maintenant voir les fichiers de votre projet sur votre dépôt GitHub en ligne.
